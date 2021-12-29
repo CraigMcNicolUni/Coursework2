@@ -9,7 +9,7 @@ node {
         customImage.push()
 	
 	sh """
-		docker run --rm customImage
+		docker run --rm latest
 	"""
     }
 }
