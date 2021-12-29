@@ -9,7 +9,7 @@ node {
         customImage.push()
 	
 	sh """
-		docker run -p 49153:8080 -d craigmcnicoluni/coursework2
+		docker run -p 49160:8080 -d craigmcnicoluni/coursework2
 	"""
     }
 }
